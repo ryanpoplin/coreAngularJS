@@ -18,4 +18,4 @@ angular.module('invoice1', ['finance']).controller('InvoiceController', ['curren
 		window.alert('...');
 	};
 
-}]);	
+}]);
