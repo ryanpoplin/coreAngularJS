@@ -7,10 +7,10 @@
 </head>
 <body>
 	<!-- i like the ...Module/Controller/ETC... naming... -->
-	<header ng-app="ControllerModule" ng-controller="HeaderController as header">
-		<h1>{{header.title}}</h1>
-		<a href="#" ng-click="header.updateTitle()">Change Title</a>
-		<input type="text" ng-model="header.title">
+	<header ng-app="ControllerModule" ng-controller="HeaderController">
+		<h1>{{title}}</h1>
+		<a href="#" ng-click="updateTitle()">Change Title</a>
+		<input type="text" ng-model="title">
 	</header>
 </body>
 </html>
