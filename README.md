@@ -1,1 +1,3 @@
 # coreAngularJS
+
+## Going through Google's AngularJS Developer Guide...
